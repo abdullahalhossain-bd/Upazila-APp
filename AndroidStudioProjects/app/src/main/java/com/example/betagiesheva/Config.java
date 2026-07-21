@@ -87,8 +87,26 @@ public class Config {
 
     // ── Complaints / Emergency / Notifications (Phase 6 endpoints) ────────
     public static final String SUBMIT_COMPLAINT_URL     = BASE_URL + "submit_complaint.php";
+    public static final String GET_COMPLAINTS_URL       = BASE_URL + "get_complaints.php";
+    public static final String UPDATE_COMPLAINT_STATUS_URL = BASE_URL + "update_complaint_status.php";
     public static final String GET_EMERGENCY_NUMBERS_URL= BASE_URL + "get_emergency_numbers.php";
+    public static final String ADD_EMERGENCY_NUMBER_URL = BASE_URL + "add_emergency_number.php";
+    public static final String UPDATE_EMERGENCY_NUMBER_URL = BASE_URL + "update_emergency_number.php";
+    public static final String DELETE_EMERGENCY_NUMBER_URL = BASE_URL + "delete_emergency_number.php";
     public static final String GET_NOTIFICATIONS_URL    = BASE_URL + "get_notifications.php";
+    public static final String ADD_NOTIFICATION_URL     = BASE_URL + "add_notification.php";
+    public static final String DELETE_NOTIFICATION_URL  = BASE_URL + "delete_notification.php";
+
+    // ── Admin Budget Management ───────────────────────────────────────────
+    public static final String ADMIN_ADD_BUDGET_CATEGORY_URL    = BASE_URL + "admin_add_budget_category.php";
+    public static final String ADMIN_UPDATE_BUDGET_CATEGORY_URL = BASE_URL + "admin_update_budget_category.php";
+    public static final String ADMIN_DELETE_BUDGET_CATEGORY_URL = BASE_URL + "admin_delete_budget_category.php";
+
+    // ── Admin User Management ─────────────────────────────────────────────
+    public static final String ADMIN_LIST_USERS_URL      = BASE_URL + "admin_list_users.php";
+    public static final String ADMIN_UPDATE_USER_ROLE_URL    = BASE_URL + "admin_update_user_role.php";
+    public static final String ADMIN_UPDATE_USER_STATUS_URL  = BASE_URL + "admin_update_user_status.php";
+    public static final String ADMIN_DASHBOARD_STATS_URL     = BASE_URL + "admin_dashboard_stats.php";
 
     // ── Volley Singleton ──────────────────────────────────────────────────
     private static Config instance;
