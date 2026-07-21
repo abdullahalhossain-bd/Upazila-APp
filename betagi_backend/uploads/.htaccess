@@ -1,0 +1,5 @@
+# Block PHP execution inside uploads
+Options -Indexes
+<FilesMatch "\.(php|php5|phtml|php3)$">
+    Deny from all
+</FilesMatch>
